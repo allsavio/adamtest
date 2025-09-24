@@ -1,0 +1,33 @@
+{
+  "name": "brokerage-network-engine",
+  "version": "1.0.0",
+  "description": "Plug-and-play networking and recruiting engine for brokerage ecosystems.",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "ts-node src/server.ts",
+    "lint": "tsc --noEmit",
+    "test": "node -e \"console.log('No automated tests yet')\""
+  },
+  "keywords": [
+    "brokerage",
+    "networking",
+    "recruiting",
+    "mongodb"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^7.6.3",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.30",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  }
+}
